@@ -94,31 +94,31 @@ class Users extends React.Component {
     //更新用户
     updateUser = (e) => {
         console.log("uuuuuuuuuuuu");
-     /*   var id = 1;
-        var url = "http://127.0.0.1:80/sys/users/" + id;
-        console.log(url);
-        // let user = {
-        //     'identifier': this.state.username,
-        //     "credential": this.state.pwd,
-        //     "identifierType": 1
-        // };
+        /*   var id = 1;
+           var url = "http://127.0.0.1:80/sys/users/" + id;
+           console.log(url);
+           // let user = {
+           //     'identifier': this.state.username,
+           //     "credential": this.state.pwd,
+           //     "identifierType": 1
+           // };
 
-        axios.get(url).then(response => {
-            console.log("111111111111111111111111response  then ==获取到后台返回的数据");
-            console.log(response.data);
-            //登录失败
-            if (null == response.data.data) {
-                alert(response.data.msg);
-            }
-            //登录成功，获取到后台返回的数据，可以做缓存
+           axios.get(url).then(response => {
+               console.log("111111111111111111111111response  then ==获取到后台返回的数据");
+               console.log(response.data);
+               //登录失败
+               if (null == response.data.data) {
+                   alert(response.data.msg);
+               }
+               //登录成功，获取到后台返回的数据，可以做缓存
 
-        })
-            .catch(function (error) {
-                //异常
-                console.log(error);
-                console.log('登陆异常  catch =====',);
+           })
+               .catch(function (error) {
+                   //异常
+                   console.log(error);
+                   console.log('登陆异常  catch =====',);
 
-            });*/
+               });*/
 
     };
 
@@ -163,6 +163,16 @@ class Users extends React.Component {
                 key: 'updateDate',
                 title: '更新时间',
                 dataIndex: 'updateDate'
+            },
+            {
+                key: 'add-remove',
+                title: 'add/remove',
+                render: (text, record) => (
+                    <span>
+                        <Button onClick={this.add}>add {record.id}</Button>
+                        <Button  onClick={this.remove.bind(this)}>remove-{record.id}</Button>
+                    </span>
+                )
             }
         ];
         //////////////////////
@@ -170,11 +180,11 @@ class Users extends React.Component {
         return (<div>
 
             <Card title={"基础表格"}>
-                <Button type="primary" onClick={this.updateUser}>测试 primary与后台交互</Button>
+            {/*    <Button type="primary" onClick={this.updateUser}>测试 primary与后台交互</Button>
                 <Button type="dashed" onClick={this.updateUser}>测试 dashed与后台交互</Button>
-                <Button type="danger" onClick={this.updateUser}>测试 danger与后台交互</Button>
+                <Button type="danger" onClick={this.updateUser}>测试 danger与后台交互</Button>*/}
 
-                <Button type="primary" onClick={() => this.setModal2Visible(true)}>显示垂直居中的对话框</Button>
+                <Button type="dashed" onClick={() => this.setModal2Visible(true)}>显示垂直居中的对话框</Button>
 
                 <Modal
                     title="垂直居中的对话框"
@@ -208,6 +218,14 @@ class Users extends React.Component {
                 </Table>
             </Card>
         </div>)
+    }
+
+    remove(id) {
+        console.log("删除--"+id);
+        console.log(id);
+    }
+    add() {
+        console.log("add");
     }
 }
 
