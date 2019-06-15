@@ -170,11 +170,11 @@ class Users extends React.Component {
 
                     <p>对话框的内容</p>
                     <Form layout="inline" onSubmit={this.updateUser}>
-                        <Form.Item> <Input prefix={<Icon type="user" style={{color: 'rgba(0,0,0,.25)'}}/>}
-                                           placeholder="Username"/> </Form.Item>
-                        <Form.Item>
-                            <Input prefix={<Icon type="lock" style={{color: 'rgba(0,0,0,.25)'}}/>} type="password"
-                                   placeholder="Password"/> </Form.Item>
+
+                        <Form.Item> <Input placeholder="nickname" onChange ={event => this.handleMaxBackUp(event)} /> </Form.Item>
+                        <Form.Item> <Input placeholder="avatar"></Input> </Form.Item>
+                        <Form.Item> <Input placeholder="state"></Input> </Form.Item>
+
                         <Form.Item> <Button type="primary" htmlType="submit"> Log in </Button> </Form.Item>
                     </Form>
 
@@ -225,6 +225,7 @@ class Users extends React.Component {
                 alert(response.data.msg);
             }
             //登录成功，获取到后台返回的数据，可以做缓存
+            console.log(response.data.data);
 
         })
             .catch(function (error) {
