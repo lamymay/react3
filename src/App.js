@@ -14,6 +14,7 @@ import File3 from './components/sys/File3'
 import TreeSimple from './components/sys/TreeSimple'
 import TreeSearch from './components/sys/ant/TreeSearch'
 import TimelineTwo from './components/sys/ant/TimelineTwo'
+import Timeline from './components/sys/ant/timeline/TimeLine'
 // import PicturesWall from './components/sys/PicturesWall'
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 import IndexMain from "./components/sys/ant/layout/IndexMain";
@@ -38,6 +39,7 @@ class App extends Component {
                     <Link to='/TreeSimple'>TreeSimple</Link>
                     <Link to='/TreeSearch'>TreeSearch</Link>
                     <Link to='/TimelineTwo'>TimelineTwo</Link>
+                    <Link to='/Timeline'>Timeline</Link>
                     <Link to='/IndexMain'>IndexMain</Link>
                     <Link to='/ModalBase'>ModalBase</Link>
                     {/*<Link to='/PicturesWall'>PicturesWall</Link>*/}
@@ -58,6 +60,7 @@ class App extends Component {
                 <Route exact path="/TreeSimple" component={TreeSimple}/>
                 <Route exact path="/TreeSearch" component={TreeSearch}/>
                 <Route exact path="/TimelineTwo" component={TimelineTwo}/>
+                <Route exact path="/Timeline" component={Timeline}/>
                 <Route exact path="/IndexMain" component={IndexMain}/>
                 <Route exact path="/ModalBase" component={ModalBase}/>
                 {/*<Route exact path="/PicturesWall" component={PicturesWall}/>*/}
