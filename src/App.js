@@ -15,8 +15,9 @@ import TreeSimple from './components/sys/TreeSimple'
 import TreeSearch from './components/sys/ant/TreeSearch'
 import TimelineTwo from './components/sys/ant/TimelineTwo'
 import Timeline from './components/sys/ant/timeline/TimeLine'
+import ProjectTest from './components/agile/ProjectTest'
 // import PicturesWall from './components/sys/PicturesWall'
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Link, Route} from "react-router-dom";
 import IndexMain from "./components/sys/ant/layout/IndexMain";
 import ModalBase from "./components/sys/ant/modal/ModalBase";
 
@@ -27,6 +28,7 @@ class App extends Component {
             <Router>
                 <div className='header'>
                     <Link to='/'>index</Link>
+                    <Link to='/ProjectTest'>ProjectTest</Link>
                     <Link to='/login'>login</Link>
                     {/*<Link to='/Login2'>Login2</Link>*/}
                     <Link to='/register'>Register</Link>
@@ -63,6 +65,7 @@ class App extends Component {
                 <Route exact path="/Timeline" component={Timeline}/>
                 <Route exact path="/IndexMain" component={IndexMain}/>
                 <Route exact path="/ModalBase" component={ModalBase}/>
+                <Route exact path="/ProjectTest" component={ProjectTest}/>
                 {/*<Route exact path="/PicturesWall" component={PicturesWall}/>*/}
 
             </Router>
