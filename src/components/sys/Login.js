@@ -1,7 +1,6 @@
 import React from "react";
 import axios from 'axios';
 // import {Form, Icon, Input, Button, Checkbox,} from 'antd';
-
 // import "antd/dist/antd.css";
 
 class Login extends React.Component {
@@ -44,18 +43,6 @@ class Login extends React.Component {
         });
     };
 
-    handleSex = (e) => {
-        console.log("测试处理性别");
-        this.setState({
-            sex: e.target.value
-        })
-    };
-
-    handleInfo = (e) => {
-        this.setState({
-            info: e.target.value
-        })
-    };
 
     keyUpFun = (e) => {
         console.log(e.keyCode === 13);
@@ -86,18 +73,23 @@ class Login extends React.Component {
             .then(response => {
                 console.log("response  then ==获取到后台返回的数据");
                 console.log(response.data);
-                //登录失败
-                if (null == response.data.data) {
+
+                //登录失败  小于1 失败
+                if (null == response.data.code < 1) {
                     alert(response.data.msg);
+                    this.props.history.push("/login");
+                } else {
+                    //登录成功，获取到后台返回的数据，可以做缓存
+                    console.log(" 登录成功" + response.data.msg);
+                    this.props.history.push("/Blog");
                 }
-                //登录成功，获取到后台返回的数据，可以做缓存
 
             })
             .catch(function (error) {
                 //异常
                 console.log(error);
                 console.log('登陆异常  catch =====',);
-
+                this.props.history.push("/login");
             });
         ;
 

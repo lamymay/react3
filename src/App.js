@@ -16,6 +16,7 @@ import TreeSearch from './components/sys/ant/TreeSearch'
 import TimelineTwo from './components/sys/ant/TimelineTwo'
 import Timeline from './components/sys/ant/timeline/TimeLine'
 import ProjectTest from './components/agile/ProjectTest'
+import Blog from './components/test/blog/Blog'
 // import PicturesWall from './components/sys/PicturesWall'
 import {BrowserRouter as Router, Link, Route} from "react-router-dom";
 import IndexMain from "./components/sys/ant/layout/IndexMain";
@@ -35,6 +36,7 @@ class App extends Component {
                     <Link to='/Users'>Users</Link>
                     <Link to='/UserUpdate'>UserUpdate</Link>
                     <Link to='/Role'>Role</Link>
+                    <Link to='/Blog'>Blog</Link>
                     <Link to='/File'>File</Link>
                     <Link to='/File2'>File2</Link>
                     <Link to='/File3'>File3</Link>
@@ -56,6 +58,7 @@ class App extends Component {
                 <Route exact path="/users" component={Users}/>
                 <Route exact path="/UserUpdate" component={UserUpdate}/>
                 <Route exact path="/Role" component={Role}/>
+                <Route exact path="/Blog" component={Blog}/>
                 <Route exact path="/File" component={File}/>
                 <Route exact path="/File2" component={File2}/>
                 <Route exact path="/File3" component={File3}/>

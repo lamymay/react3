@@ -31,3 +31,5 @@ class ProjectTest extends React.Component {
 }
 
 export default ProjectTest;
+//这里需要一个表单，输入1项目名称2类型3点击下一步4选择一个规则或者点击创建规则4.1走创建规则则展开一个模态框保存一条规则5进入看板
+//跳转看板页面：1查询规则列表绘制看板2去看别人怎么设计的
