@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="087c2081-d868-49fd-8ad1-4e0a77fbb77d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/agile/ProjectTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/agile/ProjectTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sys/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sys/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/test/blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/test/blog/Blog.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/sys/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+            <state relative-caret-position="1064">
+              <caret line="57" selection-start-line="57" selection-end-line="95" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/test/blog/Blog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1799">
+              <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -63,9 +73,11 @@
       <find>/sys/users</find>
       <find>Two</find>
       <find>Project</find>
+      <find>loginFun</find>
     </findStrings>
     <replaceStrings>
       <replace>TreeSimple</replace>
+      <replace>,</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -102,9 +114,9 @@
         <option value="$PROJECT_DIR$/src/components/agile/Project.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/agile/ProjectTest.js" />
-        <option value="$PROJECT_DIR$/src/components/test/blog/Blog.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/sys/Login.js" />
+        <option value="$PROJECT_DIR$/src/components/test/blog/Blog.js" />
       </list>
     </option>
   </component>
@@ -131,8 +143,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="870" />
-    <option name="y" value="-17" />
+    <option name="x" value="-11" />
+    <option name="y" value="-2" />
     <option name="width" value="1932" />
     <option name="height" value="1098" />
   </component>
@@ -317,7 +329,8 @@
       <workItem from="1563966379180" duration="100000" />
       <workItem from="1565593593285" duration="39000" />
       <workItem from="1567078758711" duration="922000" />
-      <workItem from="1567085979870" duration="669000" />
+      <workItem from="1567085979870" duration="1479000" />
+      <workItem from="1567248441937" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="react 与后端数据交互">
       <created>1559701023930</created>
@@ -389,17 +402,24 @@
       <option name="project" value="LOCAL" />
       <updated>1563118988518</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="登录">
+      <created>1567086766046</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567086766046</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32211000" />
+    <option name="totallyTimeSpent" value="33632000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1119" y="18" width="1932" height="1098" extended-state="0" />
+    <frame x="-11" y="-2" width="1932" height="1098" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32478634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32478634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -451,7 +471,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49839744" visible="true" weight="0.32731137" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49839744" weight="0.32731137" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5016026" side_tool="true" weight="0.24089935" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -483,7 +503,8 @@
     <MESSAGE value="react SAVE USER" />
     <MESSAGE value="power by &quot;Ant Design&quot;的项目" />
     <MESSAGE value="ProjectTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="ProjectTest" />
+    <MESSAGE value="登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/assets/images/1.jpg">
@@ -759,16 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/test/blog/Blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.ssh/config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -778,8 +789,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/sys/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+        <state relative-caret-position="1064">
+          <caret line="57" selection-start-line="57" selection-end-line="95" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/test/blog/Blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1799">
+          <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
