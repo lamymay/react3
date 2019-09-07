@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-// import logo from './assets/images/logo.svg';
+import {BrowserRouter as Router, Link, Route} from "react-router-dom";
+
 import './assets/css/App.css';
 import Login from './components/sys/Login'
-// import Login2 from './components/sys/ant/Login2'
 import Register from './components/sys/Register'
 import Index from './components/sys/Index'
 import Users from './components/sys/Users'
@@ -17,10 +17,13 @@ import TimelineTwo from './components/sys/ant/TimelineTwo'
 import Timeline from './components/sys/ant/timeline/TimeLine'
 import ProjectTest from './components/agile/ProjectTest'
 import Blog from './components/test/blog/Blog'
-// import PicturesWall from './components/sys/PicturesWall'
-import {BrowserRouter as Router, Link, Route} from "react-router-dom";
+import Demo from './components/test/md/Demo'
 import IndexMain from "./components/sys/ant/layout/IndexMain";
 import ModalBase from "./components/sys/ant/modal/ModalBase";
+
+// import logo from './assets/images/logo.svg';
+// import PicturesWall from './components/sys/PicturesWall'
+// import Login2 from './components/sys/ant/Login2'
 
 class App extends Component {
     render() {
@@ -32,11 +35,12 @@ class App extends Component {
                     <Link to='/ProjectTest'>ProjectTest</Link>
                     <Link to='/login'>login</Link>
                     {/*<Link to='/Login2'>Login2</Link>*/}
+                    <Link to='/Blog'>Blog</Link>
+                    <Link to='/Demo'>Demo</Link>
                     <Link to='/register'>Register</Link>
                     <Link to='/Users'>Users</Link>
                     <Link to='/UserUpdate'>UserUpdate</Link>
                     <Link to='/Role'>Role</Link>
-                    <Link to='/Blog'>Blog</Link>
                     <Link to='/File'>File</Link>
                     <Link to='/File2'>File2</Link>
                     <Link to='/File3'>File3</Link>
@@ -54,11 +58,12 @@ class App extends Component {
                 <Route exact path="/" component={Index}/>
                 <Route exact path="/login" component={Login}/>
                 {/*<Route exact path="/Login2" component={Login2}/>*/}
+                <Route exact path="/Blog" component={Blog}/>
+                <Route exact path="/Demo" component={Demo}/>
                 <Route exact path="/register" component={Register}/>
                 <Route exact path="/users" component={Users}/>
                 <Route exact path="/UserUpdate" component={UserUpdate}/>
                 <Route exact path="/Role" component={Role}/>
-                <Route exact path="/Blog" component={Blog}/>
                 <Route exact path="/File" component={File}/>
                 <Route exact path="/File2" component={File2}/>
                 <Route exact path="/File3" component={File3}/>

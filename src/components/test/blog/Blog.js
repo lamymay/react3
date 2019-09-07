@@ -10,14 +10,14 @@ class Blog extends React.Component {
             id: '', //账号
             authorId: '', // 作者，所属用户ID[多作者请在描述中填充第二作者信息]
             tagId: '', // 栏目ID
-            sortId,// 所属分类
-            status,// 文章的模式:0为私有，1为公开，2为仅好友查看
-            title,// 文章名称-64
-            description,// 文章描述-128
-            content,// 文章内容[text]
-            publishDate,// 发布时间
-            createDate,// 创建时间(创建未发表)
-            updateDate,// 更新时间
+            sortId: '',// 所属分类
+            status: '',// 文章的模式:0为私有，1为公开，2为仅好友查看
+            title: '',// 文章名称-64
+            description: '',// 文章描述-128
+            content: '',// 文章内容[text]
+            publishDate: '',// 发布时间
+            createDate: '',// 创建时间(创建未发表)
+            updateDate: '',// 更新时间
             info: '',
 
         }
@@ -102,3 +102,5 @@ class Blog extends React.Component {
 }
 
 export default Blog;
+
+//TestMdEditor
