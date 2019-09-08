@@ -24,13 +24,22 @@ import {
 // import ReactDOM from 'react-dom'
 // import Connection from '../common/Connection';
 //引入antd，本页面主要是对list数据做渲染
-class Users extends React.Component {
-
+class ManageBlog extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            users: []
+            users: [],
+            id: null,
+            authorId: 1,
+            tagId: 0,
+            category: 0,
+            status: 2,
+            title: "测试 title",
+            description: "测试description",
+            content: "测试 content content content content",
+            version: 1,
+            sortWeight: 1
         }
     }
 
@@ -48,7 +57,7 @@ class Users extends React.Component {
 
     componentDidMount() {
         //获取列表数据
-        this.getUsers();
+        this.getManageBlog();
 
     }
 
@@ -59,9 +68,9 @@ class Users extends React.Component {
 
     //在密码框中点了回车就直接发请求登陆
     //login
-    getUsers = () => {
+    getManageBlog = () => {
         var port = 80;
-        var url = "http://127.0.0.1:" + port + "/zero/sys/users/page";
+        var url = "http://127.0.0.1:" + port + "/zero/blogs/page";
         console.log("######################################");
         console.log(url);
         console.log("######################################");
@@ -107,26 +116,56 @@ class Users extends React.Component {
                 title: '测试合并',
                 render: (text, record) => (
                     <span>
-                       {record.nickname}--
-                        {record.avatar}>
+                       {record.id}--
+                        {record.version}>
                         </span>
                 )
             },
             {
-                key: 'nickname',
-                title: '昵称',
-                dataIndex: 'nickname',
+                key: 'authorId',
+                title: '作者id',
+                dataIndex: 'authorId',
                 width: 150
             },
             {
-                key: 'avatar',
-                title: '标识',
-                dataIndex: 'avatar'
+                key: 'title',
+                title: 'title',
+                dataIndex: 'title',
+                width: 150
+            }, {
+                key: 'description',
+                title: 'description',
+                dataIndex: 'description',
+                width: 150
+            }, {
+                key: 'content',
+                title: 'content',
+                dataIndex: 'content',
+                width: 150
+            }, {
+                key: 'version',
+                title: 'version',
+                dataIndex: 'version',
+                width: 150
+            }, {
+                key: 'sortWeight',
+                title: 'sortWeight',
+                dataIndex: 'sortWeight',
+                width: 150
             },
             {
-                key: 'state',
-                title: '启用状态',
-                dataIndex: 'state'
+                key: 'tagId',
+                title: '标签',
+                dataIndex: 'tagId'
+            }, {
+                key: 'category',
+                title: '分类',
+                dataIndex: 'category'
+            },
+            {
+                key: 'status',
+                title: '状态',
+                dataIndex: 'status'
             },
             {
                 key: 'createDate',
@@ -171,7 +210,8 @@ class Users extends React.Component {
                     <p>对话框的内容</p>
                     <Form layout="inline" onSubmit={this.updateUser}>
 
-                        <Form.Item> <Input placeholder="nickname" onChange ={event => this.handleMaxBackUp(event)} /> </Form.Item>
+                        <Form.Item> <Input placeholder="nickname" onChange={event => this.handleMaxBackUp(event)}/>
+                        </Form.Item>
                         <Form.Item> <Input placeholder="avatar"></Input> </Form.Item>
                         <Form.Item> <Input placeholder="state"></Input> </Form.Item>
 
@@ -200,51 +240,7 @@ class Users extends React.Component {
     }
 
 
-    add() {
-        console.log("add-start");
-        let start = new Date();
-        console.log(start);
-
-
-        //////////////////////////////////////////////////////////
-        var url = "http://127.0.0.1:80/sys/users";
-        console.log(url);
-        let user = {
-            'nickname': "AXIOS",
-            "avatar": "avatar-01",
-            "state": 1,
-            "createDate": 1123454444,
-            "updateDate": 1123455653
-        };
-
-        axios.post(url, user).then(response => {
-            console.log("111111111111111111111111response  then ==获取到后台返回的数据");
-            console.log(response.data);
-            //登录失败
-            if (null == response.data.data) {
-                alert(response.data.msg);
-            }
-            //登录成功，获取到后台返回的数据，可以做缓存
-            console.log(response.data.data);
-
-        })
-            .catch(function (error) {
-                //异常
-                console.log(error);
-                console.log('登陆异常  catch =====',);
-
-            });
-
-
-        //////////////////////////////////////////////////////////
-        console.log("add-end");
-        let end = new Date();
-        console.log(end);
-        console.log(end - start);
-
-
-    }
 }
 
 
-export default Users;
+export default ManageBlog;

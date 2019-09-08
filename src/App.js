@@ -19,7 +19,8 @@ import ProjectTest from './components/agile/ProjectTest'
 import Blog from './components/test/blog/Blog'
 import TestMdEditor from './components/test/md/TestMdEditor'
 import IndexMain from "./components/sys/ant/layout/IndexMain";
-import ModalBase from "./components/sys/ant/modal/ModalBase";
+// import ModalBase from "./components/sys/ant/modal/ModalBase";
+import ManageBlog from "./components/test/blog/ManageBlog";
 
 // import logo from './assets/images/logo.svg';
 // import PicturesWall from './components/sys/PicturesWall'
@@ -49,7 +50,8 @@ class App extends Component {
                     <Link to='/TimelineTwo'>TimelineTwo</Link>
                     <Link to='/Timeline'>Timeline</Link>
                     <Link to='/IndexMain'>IndexMain</Link>
-                    <Link to='/ModalBase'>ModalBase</Link>
+                    <Link to='/ManageBlog'>ManageBlog</Link>
+                    {/*<Link to='/ModalBase'>ModalBase</Link>*/}
                     {/*<Link to='/PicturesWall'>PicturesWall</Link>*/}
                 </div>
 
@@ -72,8 +74,9 @@ class App extends Component {
                 <Route exact path="/TimelineTwo" component={TimelineTwo}/>
                 <Route exact path="/Timeline" component={Timeline}/>
                 <Route exact path="/IndexMain" component={IndexMain}/>
-                <Route exact path="/ModalBase" component={ModalBase}/>
+                {/*<Route exact path="/ModalBase" component={ModalBase}/>*/}
                 <Route exact path="/ProjectTest" component={ProjectTest}/>
+                <Route exact path="/ManageBlog" component={ManageBlog}/>
                 {/*<Route exact path="/PicturesWall" component={PicturesWall}/>*/}
 
             </Router>

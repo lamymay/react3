@@ -178,8 +178,7 @@ export default class TestMdEditor extends React.Component {
                     id: response.data.data
                 });
 
-
-                this.props.history.push("/Blog");
+                this.props.history.push("/ManageBlog");
             }
 
         })
