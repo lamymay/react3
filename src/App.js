@@ -17,7 +17,7 @@ import TimelineTwo from './components/sys/ant/TimelineTwo'
 import Timeline from './components/sys/ant/timeline/TimeLine'
 import ProjectTest from './components/agile/ProjectTest'
 import Blog from './components/test/blog/Blog'
-import Demo from './components/test/md/Demo'
+import TestMdEditor from './components/test/md/TestMdEditor'
 import IndexMain from "./components/sys/ant/layout/IndexMain";
 import ModalBase from "./components/sys/ant/modal/ModalBase";
 
@@ -36,7 +36,7 @@ class App extends Component {
                     <Link to='/login'>login</Link>
                     {/*<Link to='/Login2'>Login2</Link>*/}
                     <Link to='/Blog'>Blog</Link>
-                    <Link to='/Demo'>Demo</Link>
+                    <Link to='/TestMdEditor'>TestMdEditor</Link>
                     <Link to='/register'>Register</Link>
                     <Link to='/Users'>Users</Link>
                     <Link to='/UserUpdate'>UserUpdate</Link>
@@ -59,7 +59,7 @@ class App extends Component {
                 <Route exact path="/login" component={Login}/>
                 {/*<Route exact path="/Login2" component={Login2}/>*/}
                 <Route exact path="/Blog" component={Blog}/>
-                <Route exact path="/Demo" component={Demo}/>
+                <Route exact path="/TestMdEditor" component={TestMdEditor}/>
                 <Route exact path="/register" component={Register}/>
                 <Route exact path="/users" component={Users}/>
                 <Route exact path="/UserUpdate" component={UserUpdate}/>

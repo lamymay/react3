@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="087c2081-d868-49fd-8ad1-4e0a77fbb77d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/test/md/Demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/test/md/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/集成Markdown.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANT.md" beforeDir="false" afterPath="$PROJECT_DIR$/about/ANT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/test/blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/test/blog/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sys/File.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sys/File.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/test/md/Demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/test/md/TestMdEditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/test/md/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/集成Markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/about/集成Markdown.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,91 +26,122 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/sys/Login.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1064">
-                  <caret line="57" selection-start-line="57" selection-end-line="95" selection-end-column="6" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/test/blog/Blog.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="105" column="14" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/test/md/Demo.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                    <element signature="e#1864#2733#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/test/md/index.less">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="246">
-                  <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="-2214">
-                    <caret line="11" selection-start-line="11" selection-end-line="11" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/集成Markdown.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="114">
-                    <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about/ANT.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/test/md/TestMdEditor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/upload/Upload.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/sys/File2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/sys/File.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/sys/ant/modal/ModalBase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1159">
+              <caret line="61" column="73" selection-start-line="61" selection-start-column="73" selection-end-line="61" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/test/blog/Blog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" selection-start-line="37" selection-end-line="76" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about/集成Markdown.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,15 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>primary</find>
-      <find>Modal</find>
-      <find>setModal2Visible</find>
-      <find>Option</find>
-      <find>Button</find>
-      <find>List</find>
-      <find>hasErrors</find>
-      <find>getFieldDecorator</find>
-      <find>Tree</find>
       <find>modal2Visible</find>
       <find>axios</find>
       <find>/sys/users</find>
@@ -139,13 +160,11 @@
       <find>Project</find>
       <find>loginFun</find>
       <find>Blog</find>
-      <find>Demo</find>
       <find>TestMdEditor</find>
       <find>Router</find>
       <find>index</find>
       <find>hljs</find>
       <find>markdown-it-abbr</find>
-      <find>abbr</find>
       <find>deflist</find>
       <find>emoji</find>
       <find>subscript</find>
@@ -153,12 +172,24 @@
       <find>footnote</find>
       <find>insert</find>
       <find>mark</find>
+      <find>abbr</find>
+      <find>markdown-it</find>
+      <find>ModalBase</find>
+      <find>less</find>
+      <find>Demo</find>
+      <find>handleGetMdValue</find>
+      <find>handleGetHtmlValue</find>
+      <find>Upload</find>
+      <find>`${info.file.name} fi</find>
+      <find>handleImageUpload</find>
+      <find>renderHTML</find>
     </findStrings>
     <replaceStrings>
       <replace>TreeSimple</replace>
       <replace>,</replace>
       <replace>: '',</replace>
       <replace>Demo</replace>
+      <replace>MD</replace>
       <replace>TestMdEditor</replace>
     </replaceStrings>
   </component>
@@ -174,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/components/sys/UserUpdate.js" />
         <option value="$PROJECT_DIR$/src/components/sys/PicturesWall.js" />
         <option value="$PROJECT_DIR$/src/components/sys/Role.js" />
-        <option value="$PROJECT_DIR$/src/components/sys/File.js" />
         <option value="$PROJECT_DIR$/src/components/sys/File2.js" />
         <option value="$PROJECT_DIR$/src/components/sys/File3.js" />
         <option value="$PROJECT_DIR$/src/components/sys/Tree.js" />
@@ -192,16 +222,17 @@
         <option value="$PROJECT_DIR$/src/components/sys/ant/timeline.TimeLine.js" />
         <option value="$PROJECT_DIR$/src/components/sys/ant/timeline/TimeLine.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/ANT.md" />
         <option value="$PROJECT_DIR$/src/components/agile/Project.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/agile/ProjectTest.js" />
         <option value="$PROJECT_DIR$/src/components/sys/Login.js" />
-        <option value="$PROJECT_DIR$/src/components/test/md/TestMdEditor.js" />
         <option value="$PROJECT_DIR$/src/components/test/blog/Blog.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/集成Markdown.md" />
         <option value="$PROJECT_DIR$/src/components/test/md/Demo.js" />
+        <option value="$PROJECT_DIR$/ANT.md" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/sys/File.js" />
+        <option value="$PROJECT_DIR$/src/components/test/md/TestMdEditor.js" />
       </list>
     </option>
   </component>
@@ -228,8 +259,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="638" />
-    <option name="y" value="87" />
+    <option name="x" value="308" />
+    <option name="y" value="90" />
     <option name="width" value="1932" />
     <option name="height" value="1098" />
   </component>
@@ -241,14 +272,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="react3" type="b2602c69:ProjectViewProjectNode" />
               <item name="react3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react3" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react3" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="antd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react3" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="antd" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react3" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="antd" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react3" type="b2602c69:ProjectViewProjectNode" />
@@ -266,6 +321,21 @@
               <item name="react3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="ant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react3" type="b2602c69:ProjectViewProjectNode" />
@@ -294,6 +364,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,18 +384,20 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Java\JetBrains\IntelliJ IDEA 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="T:\Project\REACT\react3" />
-      <recent name="T:\Project\REACT\react3\src\components\sys\ant\timeline" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="T:\Project\REACT\react3\src\components\test\md" />
       <recent name="T:\Project\REACT\react3" />
       <recent name="T:\Project\REACT\react3\src\components" />
       <recent name="T:\Project\REACT\react3\src\components\sys\ant\layout" />
       <recent name="T:\Project\REACT\react3\src\components\sys\ant" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="T:\Project\REACT\react3\about" />
+      <recent name="T:\Project\REACT\react3" />
+      <recent name="T:\Project\REACT\react3\src\components\sys\ant\timeline" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -424,7 +498,9 @@
       <workItem from="1567085979870" duration="1479000" />
       <workItem from="1567248441937" duration="1223000" />
       <workItem from="1567332147556" duration="2134000" />
-      <workItem from="1567867026501" duration="2455000" />
+      <workItem from="1567867026501" duration="2708000" />
+      <workItem from="1567911015586" duration="4614000" />
+      <workItem from="1567948880019" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="react 与后端数据交互">
       <created>1559701023930</created>
@@ -510,17 +586,24 @@
       <option name="project" value="LOCAL" />
       <updated>1567260085801</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="md">
+      <created>1567869567775</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1567869567775</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38833000" />
+    <option name="totallyTimeSpent" value="44299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="399" y="43" width="1932" height="1098" extended-state="0" />
+    <frame x="964" y="151" width="1932" height="1098" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33226496" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33974358" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -529,16 +612,16 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49839744" visible="true" weight="0.41276595" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49839744" visible="true" weight="0.23617022" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5016026" side_tool="true" weight="0.24089935" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -557,7 +640,7 @@
       <window_info anchor="right" id="BPMNPalette" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32478634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3360043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -566,13 +649,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49839744" weight="0.32731137" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49839744" visible="true" weight="0.2606383" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5016026" side_tool="true" weight="0.24089935" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -606,7 +689,8 @@
     <MESSAGE value="ProjectTest" />
     <MESSAGE value="登录" />
     <MESSAGE value="blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="blog" />
+    <MESSAGE value="md" />
+    <option name="LAST_COMMIT_MESSAGE" value="md" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/assets/images/1.jpg">
@@ -652,16 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sys/File2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,16 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="167" column="22" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sys/ant/modal/ModalBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,7 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ANT.md" />
     <entry file="file://$PROJECT_DIR$/src/components/common/Connection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -816,16 +879,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../说明.txt" />
-    <entry file="file://$PROJECT_DIR$/src/components/sys/File.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="20" selection-end-line="83" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/sys/UserUpdate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -843,13 +896,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -881,26 +927,6 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/test/blog/Blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="105" column="14" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/test/md/index.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -911,23 +937,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/集成Markdown.md">
+    <entry file="file://$PROJECT_DIR$/src/components/test/md/index.less" />
+    <entry file="file://$PROJECT_DIR$/about/ANT.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/test/md/Demo.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/upload/Upload.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+        <state relative-caret-position="38">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sys/File2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#1864#2733#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sys/File.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sys/ant/modal/ModalBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="61" column="73" selection-start-line="61" selection-start-column="73" selection-end-line="61" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/test/blog/Blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" selection-start-line="37" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/集成Markdown.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/test/md/TestMdEditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
