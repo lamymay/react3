@@ -52,12 +52,37 @@ export default class TestMdEditor extends React.Component {
             .use(insert)
             .use(mark)
             .use(tasklists, {enabled: this.taskLists});
-        this.renderHTML = this.renderHTML.bind(this)
+        this.renderHTML = this.renderHTML.bind(this);
+
+        this.state = {
+            id: null,
+            authorId: 1,
+            tagId: 0,
+            category: 0,
+            status: 2,
+            title: "测试 title",
+            description: "测试description",
+            content: "测试 content content content content",
+            version: 1,
+            sortWeight: 1
+        }
     }
 
 
     //编辑器有变化的话执行
-    handleEditorChange({html, text}) {
+    // handleEditorChange({html, text}) {
+
+        // refFun = () => {
+
+            handleEditorChange=({html, text})=> {
+        //文章正文
+        this.setState({
+            content: text
+        });
+
+        if (this.state.id == null) {
+            this.crateArticleFun();
+        }
         console.log("html 是md 输入框中文本转换为html的文本---text 是md 输入框中的文本");
         console.log(html);
         console.log("---------------------");
@@ -65,6 +90,7 @@ export default class TestMdEditor extends React.Component {
         //text 是md 输入框中的文本
         console.log(text);
     }
+
 
     //上传图片
     handleImageUpload(file, callback) {
@@ -113,44 +139,59 @@ export default class TestMdEditor extends React.Component {
     // }
 
 
-
     //创建文章
-    crateArticleFun = (e) => {
+    // crateArticleFun = () => {
+    crateArticleFun() {
+
         // console.log(this.state.username);
-        var url = "http://arc.com/blogs/1";
+        var url = "http://arc.com/zero/blogs";
         console.log(url);
-        let user = {
-            'identifier': this.state.username,
-            "credential": this.state.pwd,
-            "identifierType": 1
+        let article = {
+            "authorId": this.state.authorId,
+            "tagId": this.state.tagId,
+            "category": this.state.category,
+            "status": this.state.status,
+            "title": this.state.title,
+            "description": this.state.description,
+            "content": this.state.content,
+            "version": this.state.version,
+            "sortWeight": this.state.sortWeight
         };
 
-        axios.post(url, user)
-            .then(response => {
-                console.log("response  then ==获取到后台返回的数据");
-                console.log(response.data);
+        console.log(article);
+        axios.post(url, article).then(response => {
+            console.log("response  then ==获取到后台返回的数据");
+            console.log(response.data);
 
-                //登录失败  小于1 失败
-                if (null == response.data.code < 1) {
-                    alert(response.data.msg);
-                    this.props.history.push("/login");
-                } else {
-                    //登录成功，获取到后台返回的数据，可以做缓存
-                    console.log(" 登录成功" + response.data.msg);
-                    this.props.history.push("/Blog");
-                }
+            //登录失败  小于1 失败
+            if (null == response.data.code < 1) {
+                alert(response.data.msg);
+                this.props.history.push("/TestMdEditor");
+            } else {
+                //登录成功，获取到后台返回的数据，可以做缓存
+                console.log(" 成功 成功 成功 成功 " + response.data.msg);
+                console.log(response.data.data);
+                console.log(response.data.data);
+                console.log(response.data.data);
+                //文章正文
+                this.setState({
+                    id: response.data.data
+                });
 
-            })
+
+                this.props.history.push("/Blog");
+            }
+
+        })
             .catch(function (error) {
                 //异常
                 console.log(error);
-                console.log('登陆异常  catch =====',);
-                this.props.history.push("/login");
+                console.log('异常  catch =====',);
+                this.props.history.push("/index");
             });
         ;
 
     };
-
 
 
     //-----------------------------------------------------------------------------

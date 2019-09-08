@@ -13,3 +13,6 @@ npm install markdown-it-abbr --save
 npm install markdown-it-ins --save
 npm install markdown-it-mark --save
 npm install markdown-it-task-lists --save
+
+npm 
+ npm install -g npm 
