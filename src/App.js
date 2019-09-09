@@ -15,7 +15,7 @@ import TreeSimple from './components/sys/TreeSimple'
 import TreeSearch from './components/sys/ant/TreeSearch'
 import TimelineTwo from './components/sys/ant/TimelineTwo'
 import Timeline from './components/sys/ant/timeline/TimeLine'
-import ProjectTest from './components/agile/ProjectTest'
+import Success from './components/common/Success'
 import Blog from './components/test/blog/Blog'
 import TestMdEditor from './components/test/md/TestMdEditor'
 import IndexMain from "./components/sys/ant/layout/IndexMain";
@@ -75,7 +75,7 @@ class App extends Component {
                 <Route exact path="/Timeline" component={Timeline}/>
                 <Route exact path="/IndexMain" component={IndexMain}/>
                 {/*<Route exact path="/ModalBase" component={ModalBase}/>*/}
-                <Route exact path="/ProjectTest" component={ProjectTest}/>
+                <Route exact path="/ProjectTest" component={Success}/>
                 <Route exact path="/ManageBlog" component={ManageBlog}/>
                 {/*<Route exact path="/PicturesWall" component={PicturesWall}/>*/}
 

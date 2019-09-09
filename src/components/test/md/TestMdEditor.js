@@ -140,7 +140,6 @@ export default class TestMdEditor extends React.Component {
 
 
     //创建文章
-    // crateArticleFun = () => {
     crateArticleFun() {
 
         // console.log(this.state.username);

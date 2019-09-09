@@ -18,8 +18,10 @@ class Blog extends React.Component {
             publishDate: '',// 发布时间
             createDate: '',// 创建时间(创建未发表)
             updateDate: '',// 更新时间
-            info: '',
 
+
+            //时间线 渲染列表
+            list: []
         }
     }
 
@@ -29,78 +31,63 @@ class Blog extends React.Component {
         console.log("----------------------------");
         console.log(new Date());
         console.log("componentDidMount");
+        this.getTimelineListFun();
         console.log("----------------------------");
         // this.props.form.validateFields();
     }
 
 
     // 获取博客数据  图片 + 文字，这里应该获取的是文字数据 阅读数等
-    getBlogFun = (e) => {
-        // console.log(this.state.username);
-        // console.log(this.state.pwd);
-        // console.log(this.state.sex);
-        // console.log(this.state.info);
-
-        var url = "http://127.0.0.1:80/blogs/1";
+    getTimelineListFun = (e) => {
+        var uId = 1;
+        var url = "http://arc.com/zero/blogs/timeline/" + uId;
         console.log(url);
-        let user = {
-            'identifier': this.state.username,
-            "credential": this.state.pwd,
-            "identifierType": 1
-        };
+        axios.get(url).then(response => {
+            console.log(response.data);
 
-        axios.post(url, user)
-            .then(response => {
-                console.log("response  then ==获取到后台返回的数据");
-                console.log(response.data);
+            //失败  小于1 失败
+            if (null == response.data.code < 1) {
+                alert(response.data.msg);
+                console.log("FAIL");
+                this.props.history.push("/index");
+            } else {
+                //成功，获取到后台返回的数据，可以做缓存
+                console.log(" 成功" + response.data.msg);
+                // this.props.history.push("/Success");
 
-                //登录失败  小于1 失败
-                if (null == response.data.code < 1) {
-                    alert(response.data.msg);
-                    this.props.history.push("/login");
-                } else {
-                    //登录成功，获取到后台返回的数据，可以做缓存
-                    console.log(" 登录成功" + response.data.msg);
-                    this.props.history.push("/Blog");
-                }
+                this.setState({
+                    list: response.data.data
+                })
+            }
 
-            })
+
+        })
             .catch(function (error) {
                 //异常
                 console.log(error);
-                console.log('登陆异常  catch =====',);
-                this.props.history.push("/login");
+                console.log('异常 被 catch',);
             });
         ;
 
     };
 
     /////////////
-
-
     render() {
 
         return (
             <div>
-                <Timeline>
-                    <Timeline.Item color="green">Create a services site 2015-09-01</Timeline.Item>
-                    <Timeline.Item color="green">Create a services site 2015-09-01</Timeline.Item>
-                    <Timeline.Item color="red">
-                        <p>Solve initial network problems 1</p>
-                        {/*<p>Solve initial network problems 2</p>*/}
-                        {/*<p>Solve initial network problems 3 2015-09-01</p>*/}
-                    </Timeline.Item>
-                    <Timeline.Item>
-                        <p>Technical testing 1</p>
-                        <p>Technical testing 2</p>
-                        <p>Technical testing 3 2015-09-01</p>
-                    </Timeline.Item>
-                </Timeline>,
-            </div>)
-    }
+                <Timeline className='list'>
+                    {
+                        this.state.list.map((value, key) => {
+                            return (
+                                <Timeline.Item key={key}>{value.timeLine}</Timeline.Item>
+                            )
+                        })
+                    }
 
+                </Timeline>
+            </div>);
+    }
 }
 
 export default Blog;
-
-//TestMdEditor
