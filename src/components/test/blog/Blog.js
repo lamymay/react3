@@ -19,7 +19,6 @@ class Blog extends React.Component {
             createDate: '',// 创建时间(创建未发表)
             updateDate: '',// 更新时间
 
-
             //时间线 渲染列表
             list: []
         }
@@ -59,8 +58,6 @@ class Blog extends React.Component {
                     list: response.data.data
                 })
             }
-
-
         })
             .catch(function (error) {
                 //异常
@@ -68,7 +65,6 @@ class Blog extends React.Component {
                 console.log('异常 被 catch',);
             });
         ;
-
     };
 
     /////////////
@@ -76,6 +72,13 @@ class Blog extends React.Component {
 
         return (
             <div>
+                {/*<Timeline>*/}
+                {/*    <Timeline.Item color="green">AAA</Timeline.Item>*/}
+                {/*    <Timeline.Item color="green">BB</Timeline.Item>*/}
+                {/*    <Timeline.Item color="green">C</Timeline.Item>*/}
+                {/*    <Timeline.Item color="red">Create</Timeline.Item>*/}
+                {/*</Timeline>*/}
+
                 <Timeline className='list'>
                     {
                         this.state.list.map((value, key) => {
@@ -84,10 +87,8 @@ class Blog extends React.Component {
                             )
                         })
                     }
-
                 </Timeline>
             </div>);
     }
 }
-
 export default Blog;

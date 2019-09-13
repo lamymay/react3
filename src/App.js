@@ -19,6 +19,7 @@ import Success from './components/common/Success'
 import Blog from './components/test/blog/Blog'
 import TestMdEditor from './components/test/md/TestMdEditor'
 import IndexMain from "./components/sys/ant/layout/IndexMain";
+import Main from "./components/layout/Main";
 // import ModalBase from "./components/sys/ant/modal/ModalBase";
 import ManageBlog from "./components/test/blog/ManageBlog";
 
@@ -33,7 +34,8 @@ class App extends Component {
             <Router>
                 <div className='header'>
                     <Link to='/'>index</Link>
-                    <Link to='/ProjectTest'>ProjectTest</Link>
+                    <Link to='/Success'>Success</Link>
+                    <Link to='/Main'>Main</Link>
                     <Link to='/login'>login</Link>
                     {/*<Link to='/Login2'>Login2</Link>*/}
                     <Link to='/Blog'>Blog</Link>
@@ -49,7 +51,7 @@ class App extends Component {
                     <Link to='/TreeSearch'>TreeSearch</Link>
                     <Link to='/TimelineTwo'>TimelineTwo</Link>
                     <Link to='/Timeline'>Timeline</Link>
-                    <Link to='/IndexMain'>IndexMain</Link>
+                    {/*<Link to='/IndexMain'>IndexMain</Link>*/}
                     <Link to='/ManageBlog'>ManageBlog</Link>
                     {/*<Link to='/ModalBase'>ModalBase</Link>*/}
                     {/*<Link to='/PicturesWall'>PicturesWall</Link>*/}
@@ -62,6 +64,7 @@ class App extends Component {
                 {/*<Route exact path="/Login2" component={Login2}/>*/}
                 <Route exact path="/Blog" component={Blog}/>
                 <Route exact path="/TestMdEditor" component={TestMdEditor}/>
+                <Route exact path="/Main" component={Main}/>
                 <Route exact path="/register" component={Register}/>
                 <Route exact path="/users" component={Users}/>
                 <Route exact path="/UserUpdate" component={UserUpdate}/>
@@ -75,7 +78,7 @@ class App extends Component {
                 <Route exact path="/Timeline" component={Timeline}/>
                 <Route exact path="/IndexMain" component={IndexMain}/>
                 {/*<Route exact path="/ModalBase" component={ModalBase}/>*/}
-                <Route exact path="/ProjectTest" component={Success}/>
+                <Route exact path="/Success" component={Success}/>
                 <Route exact path="/ManageBlog" component={ManageBlog}/>
                 {/*<Route exact path="/PicturesWall" component={PicturesWall}/>*/}
 
