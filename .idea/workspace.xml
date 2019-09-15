@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="087c2081-d868-49fd-8ad1-4e0a77fbb77d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/test/get/Product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/test/get/ProductDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/REACT学习记录.MD" beforeDir="false" afterPath="$PROJECT_DIR$/about/REACT学习记录.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
@@ -60,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/test/get/ProductDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -263,8 +257,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="866" />
-    <option name="y" value="24" />
+    <option name="x" value="929" />
+    <option name="y" value="31" />
     <option name="width" value="1562" />
     <option name="height" value="1066" />
   </component>
@@ -483,7 +477,7 @@
       <workItem from="1567986850796" duration="6241000" />
       <workItem from="1568345260316" duration="839000" />
       <workItem from="1568515384250" duration="615000" />
-      <workItem from="1568547310883" duration="6462000" />
+      <workItem from="1568547310883" duration="6707000" />
     </task>
     <task id="LOCAL-00001" summary="react 与后端数据交互">
       <created>1559701023930</created>
@@ -604,11 +598,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568556604886</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="动态传值测试，query">
+      <created>1568557705747</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1568557705747</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63104000" />
+    <option name="totallyTimeSpent" value="63349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -623,7 +624,7 @@
     <frame x="866" y="24" width="1562" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2689747" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2689747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -714,7 +715,8 @@
     <MESSAGE value="集成markdown 联调 V2" />
     <MESSAGE value="时间线条同，数据格式需要优化" />
     <MESSAGE value="动态传值测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态传值测试" />
+    <MESSAGE value="动态传值测试，query" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态传值测试，query" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/sys/ant/timeline/TimeLine.js">
@@ -1007,13 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/test/md/TestMdEditor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -1093,11 +1088,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/test/get/ProductDetails.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
