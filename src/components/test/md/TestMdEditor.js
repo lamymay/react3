@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from 'react-dom'
 import MdEditor from 'react-markdown-editor-lite'
 import MarkdownIt from 'markdown-it'
 import emoji from 'markdown-it-emoji'
@@ -163,8 +162,7 @@ export default class TestMdEditor extends React.Component {
             console.log(response.data);
 
             //登录失败  小于1 失败
-            if (null == response.data.code < 1) {
-                alert(response.data.msg);
+            if (null === response&& response.data.code < 1) {
                 this.props.history.push("/TestMdEditor");
             } else {
                 //登录成功，获取到后台返回的数据，可以做缓存

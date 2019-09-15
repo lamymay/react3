@@ -8,7 +8,7 @@ import Index from './components/sys/Index'
 import Users from './components/sys/Users'
 import UserUpdate from './components/sys/UserUpdate'
 import File from './components/sys/File'
-import Role from './components/sys/Role'
+import Role from './components/sys/rbac/Role'
 import File2 from './components/sys/File2'
 import File3 from './components/sys/File3'
 import TreeSimple from './components/sys/TreeSimple'
@@ -22,6 +22,7 @@ import IndexMain from "./components/sys/ant/layout/IndexMain";
 import Main from "./components/layout/Main";
 // import ModalBase from "./components/sys/ant/modal/ModalBase";
 import ManageBlog from "./components/test/blog/ManageBlog";
+import RoleDetails from "./components/sys/rbac/RoleDetails";
 
 // import logo from './assets/images/logo.svg';
 // import PicturesWall from './components/sys/PicturesWall'
@@ -62,6 +63,7 @@ class App extends Component {
                 <Route exact path="/" component={Index}/>
                 <Route exact path="/login" component={Login}/>
                 {/*<Route exact path="/Login2" component={Login2}/>*/}
+                {/*exact 说明是精确匹配， */}
                 <Route exact path="/Blog" component={Blog}/>
                 <Route exact path="/TestMdEditor" component={TestMdEditor}/>
                 <Route exact path="/Main" component={Main}/>
@@ -80,6 +82,7 @@ class App extends Component {
                 {/*<Route exact path="/ModalBase" component={ModalBase}/>*/}
                 <Route exact path="/Success" component={Success}/>
                 <Route exact path="/ManageBlog" component={ManageBlog}/>
+                <Route exact path="/RoleDetails/:aid" component={RoleDetails}/>
                 {/*<Route exact path="/PicturesWall" component={PicturesWall}/>*/}
 
             </Router>

@@ -45,7 +45,8 @@ class Blog extends React.Component {
             console.log(response.data);
 
             //失败  小于1 失败
-            if (null == response.data.code < 1) {
+
+            if (null === response&&response.data.code < 1) {
                 alert(response.data.msg);
                 console.log("FAIL");
                 this.props.history.push("/index");

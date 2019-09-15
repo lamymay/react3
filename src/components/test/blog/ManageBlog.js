@@ -8,15 +8,6 @@ import {
     Modal,
     Form,
     Input,
-    Tooltip,
-    Icon,
-    Cascader,
-    Select,
-    Row,
-    Col,
-    List,
-    Checkbox,
-    AutoComplete,
 }
     from
         'antd';

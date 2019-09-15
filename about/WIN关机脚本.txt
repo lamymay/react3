@@ -1,0 +1,11 @@
+
+shutdown -s -t 60
+
+30分(min)=1800秒(s)
+
+
+用shutdown -s -t 60          （60表示60秒，可以自行设定）
+
+2、shutdown -a 就可以中止关机
+
+3、在cmd里面输入shutdow/?，就可以知道命令的使用。

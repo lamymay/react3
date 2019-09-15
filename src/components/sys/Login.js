@@ -14,7 +14,6 @@ class Login extends React.Component {
             type: 'worker', // 用户类型 默认求职者
             sex: 3,
             info: '',
-
         }
     }
 
@@ -43,15 +42,12 @@ class Login extends React.Component {
         });
     };
 
-
     keyUpFun = (e) => {
         console.log(e.keyCode === 13);
-        if (e.keyCode === 13) {
+        if (13=== e.keyCode ) {
             this.loginFun(e);
         }
-
     };
-
 
     //在密码框中点了回车就直接发请求登陆
     //login
@@ -73,9 +69,8 @@ class Login extends React.Component {
             .then(response => {
                 console.log("response  then ==获取到后台返回的数据");
                 console.log(response.data);
-
                 //登录失败  小于1 失败
-                if (null == response.data.code < 1) {
+                if (null === response&& response.data.code < 1) {
                     alert(response.data.msg);
                     this.props.history.push("/login");
                 } else {
