@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="087c2081-d868-49fd-8ad1-4e0a77fbb77d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/about/REACT-ERROR-错误记录.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about/REACT学习记录.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about/WIN关机脚本.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about/test/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about/test/Dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about/test/Deposits.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about/test/Orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about/test/Title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about/test/listItems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sys/rbac/RoleDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/test/get/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/test/get/ProductDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/REACT学习记录.MD" beforeDir="false" afterPath="$PROJECT_DIR$/about/REACT学习记录.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sys/File2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sys/File2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sys/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sys/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sys/Role.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sys/rbac/Role.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sys/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sys/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/test/blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/test/blog/Blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/test/blog/ManageBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/test/blog/ManageBlog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/test/md/TestMdEditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/test/md/TestMdEditor.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +28,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/sys/rbac/Role.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="638">
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/test/get/Product.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -53,9 +61,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/test/get/ProductDetails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about/REACT学习记录.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="285">
+                <caret line="15" column="13" selection-start-line="15" selection-end-line="15" selection-end-column="22" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="532">
               <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -66,37 +98,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/layout/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/test/blog/Blog.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/test/md/TestMdEditor.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
-              <caret line="163" column="26" lean-forward="true" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
+              <caret line="163" column="26" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/sys/Users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -104,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/sys/rbac/RoleDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="532">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -122,7 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>insert</find>
       <find>mark</find>
       <find>abbr</find>
       <find>markdown-it</find>
@@ -152,6 +168,7 @@
       <find>48</find>
       <find>SubMenu</find>
       <find>getInitialState</find>
+      <find>Role</find>
     </findStrings>
     <replaceStrings>
       <replace>TreeSimple</replace>
@@ -163,6 +180,7 @@
       <replace>ManageBlog</replace>
       <replace>Main</replace>
       <replace>Success</replace>
+      <replace>Product</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -192,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/components/sys/ant/timeline/TimeLine.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/components/agile/Project.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/agile/ProjectTest.js" />
         <option value="$PROJECT_DIR$/集成Markdown.md" />
         <option value="$PROJECT_DIR$/src/components/test/md/Demo.js" />
@@ -210,13 +227,16 @@
         <option value="$PROJECT_DIR$/src/components/test/blog/ManageBlog.js" />
         <option value="$PROJECT_DIR$/about/REACT-ERROR-错误记录.MD" />
         <option value="$PROJECT_DIR$/about/WIN关机脚本.txt" />
-        <option value="$PROJECT_DIR$/about/REACT学习记录.MD" />
         <option value="$PROJECT_DIR$/src/components/test/md/TestMdEditor.js" />
         <option value="$PROJECT_DIR$/src/components/layout/Main.js" />
         <option value="$PROJECT_DIR$/src/components/test/blog/Blog.js" />
         <option value="$PROJECT_DIR$/src/components/sys/rbac/Role.js" />
         <option value="$PROJECT_DIR$/src/components/sys/rbac/RoleDetails.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/test/get/Product.js" />
+        <option value="$PROJECT_DIR$/about/REACT学习记录.MD" />
+        <option value="$PROJECT_DIR$/src/components/test/get/ProductDetails.js" />
       </list>
     </option>
   </component>
@@ -243,8 +263,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="816" />
-    <option name="y" value="15" />
+    <option name="x" value="866" />
+    <option name="y" value="24" />
     <option name="width" value="1562" />
     <option name="height" value="1066" />
   </component>
@@ -316,15 +336,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
+              <item name="get" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,7 +349,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="C:/Java/android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/sys/rbac" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/test/value/path" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
@@ -359,11 +371,11 @@
       <recent name="T:\Project\REACT\react3\src\components\sys\ant\timeline" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="T:\Project\REACT\react3\src\components\test\value\path" />
+      <recent name="T:\Project\REACT\react3\src\components\test\get" />
       <recent name="T:\Project\REACT\react3\src\components\sys\rbac" />
       <recent name="T:\Project\REACT\react3\about" />
       <recent name="T:\Project\REACT\react3\src\components" />
-      <recent name="T:\Project\REACT\react3\src\components\test\blog" />
-      <recent name="T:\Project\REACT\react3\src\components\test\md" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -471,7 +483,7 @@
       <workItem from="1567986850796" duration="6241000" />
       <workItem from="1568345260316" duration="839000" />
       <workItem from="1568515384250" duration="615000" />
-      <workItem from="1568547310883" duration="5530000" />
+      <workItem from="1568547310883" duration="6462000" />
     </task>
     <task id="LOCAL-00001" summary="react 与后端数据交互">
       <created>1559701023930</created>
@@ -585,17 +597,33 @@
       <option name="project" value="LOCAL" />
       <updated>1567990828763</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="动态传值测试">
+      <created>1568556604886</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1568556604886</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62172000" />
+    <option name="totallyTimeSpent" value="63104000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="816" y="41" width="1562" height="1066" extended-state="0" />
+    <frame x="866" y="24" width="1562" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26923078" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2689747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -609,8 +637,8 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49839744" visible="true" weight="0.37004405" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49839744" weight="0.37004405" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5016026" side_tool="true" weight="0.24089935" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32929516" />
@@ -632,7 +660,7 @@
       <window_info anchor="right" id="BPMNPalette" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26923078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2689747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -646,8 +674,8 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49839744" weight="0.5121145" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49839744" visible="true" weight="0.37004405" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5016026" side_tool="true" weight="0.24089935" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32929516" />
@@ -685,21 +713,10 @@
     <MESSAGE value="集成markdown 以及与后端串起来。" />
     <MESSAGE value="集成markdown 联调 V2" />
     <MESSAGE value="时间线条同，数据格式需要优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="时间线条同，数据格式需要优化" />
+    <MESSAGE value="动态传值测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态传值测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sys/PicturesWall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sys/ant/timeline.TimeLine.js" />
-    <entry file="file://$PROJECT_DIR$/../../Za/arc/about/技术学习记录归档/react/README_INIT.MD" />
     <entry file="file://$PROJECT_DIR$/src/components/sys/ant/timeline/TimeLine.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -899,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/sys/基本">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -970,37 +980,10 @@
     <entry file="file://$PROJECT_DIR$/about/WIN关机脚本.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/about/REACT学习记录.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="361">
-            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/test/blog/ManageBlog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="1" selection-end-line="237" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sys/Users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/test/md/TestMdEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="163" column="26" lean-forward="true" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,30 +1007,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sys/rbac/RoleDetails.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sys/rbac/Role.js">
+    <entry file="file://$PROJECT_DIR$/src/components/test/md/TestMdEditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="185">
+          <caret line="163" column="26" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sys/Users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="532">
           <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#1109#1168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/test/value/path/RoleDetails.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/test/value/path/Role.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sys/rbac/Role.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/test/get/Product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/REACT学习记录.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="13" selection-start-line="15" selection-end-line="15" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sys/rbac/RoleDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/test/get/ProductDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

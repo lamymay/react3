@@ -23,6 +23,8 @@ import Main from "./components/layout/Main";
 // import ModalBase from "./components/sys/ant/modal/ModalBase";
 import ManageBlog from "./components/test/blog/ManageBlog";
 import RoleDetails from "./components/sys/rbac/RoleDetails";
+import Product   from "./components/test/get/Product";
+import ProductDetails from "./components/test/get/ProductDetails";
 
 // import logo from './assets/images/logo.svg';
 // import PicturesWall from './components/sys/PicturesWall'
@@ -80,10 +82,13 @@ class App extends Component {
                 <Route exact path="/Timeline" component={Timeline}/>
                 <Route exact path="/IndexMain" component={IndexMain}/>
                 {/*<Route exact path="/ModalBase" component={ModalBase}/>*/}
+                {/*<Route exact path="/PicturesWall" component={PicturesWall}/>*/}
                 <Route exact path="/Success" component={Success}/>
                 <Route exact path="/ManageBlog" component={ManageBlog}/>
                 <Route exact path="/RoleDetails/:aid" component={RoleDetails}/>
-                {/*<Route exact path="/PicturesWall" component={PicturesWall}/>*/}
+                <Route exact path="/Product" component={Product}/>
+
+                <Route exact path="/ProductDetails/" component={ProductDetails}/>
 
             </Router>
         );

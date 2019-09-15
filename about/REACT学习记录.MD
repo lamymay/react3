@@ -5,8 +5,15 @@ get传值
 
 动态路由，实现页面跳转
 
+第1种
+http://localhost:3000/ProductDetails/2
 
+第2种
+http://localhost:3000/ProductDetails?pid=2
 
+需要自己写解析方法，或者引入第三方模块
+
+npm install url --save
 
 
 
