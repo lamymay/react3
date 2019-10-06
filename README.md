@@ -4,7 +4,7 @@
 
 
 1. 创建react项目
-2. 引入ant 模块。npm install antd --save
+2. 引入ant 模块  npm install antd --save
 
 -----------
 
@@ -99,3 +99,11 @@ react规范每个数组或者迭代器中循环出来的组件或原生节点都
 
 
 -------------------------------------------------
+
+I had the same problem:
+
+module not found: Error: Can't resolve 'axios' in '
+
+I realized that axios folder in not found in the node_module folder of my project. I had already used npm install --save axios but it was still not found in my local node-module folder.
+
+This is how I solved this issue. I looked for some other react projects I had already done and copied the axios folder in the node_module folder of that old project. I later pasted the copied axios folder into the node_module folder of my current project and the problem varnished.
