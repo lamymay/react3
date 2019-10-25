@@ -1,45 +1,26 @@
-
-
-get传值
----
-
-动态路由，实现页面跳转
-
-第1种
-http://localhost:3000/ProductDetails/2
-
-第2种
-http://localhost:3000/ProductDetails?pid=2
-
-需要自己写解析方法，或者引入第三方模块
-
-npm install url --save
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--------------------------------
-
 #1请从中央仓库下载依赖
 #registry=http://registry.npm.taobao.org
-
 
 
 #https://expo.io/learn
 npm install -g create-react-native-app
 
 https://www.cnblogs.com/songwenlong/p/6131762.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---------
 https://guofanbang.com/使用vm15安装macos-mojave-10-14.html
 打开，在 smc.present = "TRUE" 后添加（smc.version = "0"）(建议您复制，不包括括号) 后保存。
