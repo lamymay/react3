@@ -49,7 +49,6 @@ class Users extends React.Component {
     componentDidMount() {
         //获取列表数据
         this.getUsers();
-
     }
 
     // hasErrors(fieldsError) {

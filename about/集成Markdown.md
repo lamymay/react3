@@ -1,6 +1,7 @@
 #集成Markdown
 
 npm install react-markdown-editor-lite --save
+npm install react-markdown-editor--save
 
 npm install markdown-it --save
 npm install markdown-it-emoji --save
