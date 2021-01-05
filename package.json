@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.19.2",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "markdown-it": "^9.1.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-deflist": "^2.0.3",
