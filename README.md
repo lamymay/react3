@@ -4,8 +4,6 @@
 
 
 1. 创建react项目
-2. 引入ant 模块  npm install antd --save
-
 -----------
 
 
