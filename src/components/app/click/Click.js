@@ -7,7 +7,6 @@ class Click extends React.Component {
         super(props);
         this.state = {
             display_message: null,
-
             type: null,
         }
     }
@@ -15,14 +14,14 @@ class Click extends React.Component {
 
     // 页面上需要一个按钮 点击后发个POST请求
 
-    getFile = (code) => {
-
+    postClick = (e) => {
 
         let url = urls.app_click.click;
         console.log(url);
         let req = {
             "location": "测试"
         };
+
         axios.post(url, req).then(response => {
             console.log(response);
             console.table(response.data);
@@ -34,11 +33,15 @@ class Click extends React.Component {
             //     display_message: response.data.data,
             // });
 
-
         })
+
+
     };
+
     clickCheckIn = (e) => {
-        this.getFile(this.state.code);
+        this.postClick(e);
+
+        console.log("打卡动作！")
     };
 
 
